@@ -5,7 +5,6 @@
     - Sensitive Card Number and CVV were excluded during preparation
     - Add ingestion metadata
 
-** run the cards Streaming Table inside a Lakeflow Declarative Pipeline! **
 */
 
 CREATE OR REFRESH STREAMING TABLE credit_card_project.bronze.cards

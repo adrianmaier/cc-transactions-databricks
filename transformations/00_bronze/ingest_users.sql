@@ -4,8 +4,6 @@
     - user_id was created from the documented source row position
     - Add ingestion metadata
 
-
-    ** run the users Streaming Table inside a Lakeflow Declarative Pipeline! **
 */
 
 CREATE OR REFRESH STREAMING TABLE credit_card_project.bronze.users

@@ -26,6 +26,6 @@ SELECT
     current_timestamp() AS ingestion_timestamp,
     _metadata.file_path AS source_file
 FROM STREAM read_files(
-    '/Volumes/credit_card_project/bronze/raw_data',
+    '/Volumes/credit_card_project/bronze/raw_data/transactions', --added /transactions
     format => 'parquet'
 );
