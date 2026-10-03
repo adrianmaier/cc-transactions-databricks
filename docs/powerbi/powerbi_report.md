@@ -6,7 +6,6 @@ The interactive Power BI report is provided as credit_card_analytics.pbix.
 
 1. User Behavior
 The User Behavior page provides an overview of transaction volume, spending, user-level transaction activity, average transaction amounts, and the distribution of observed user fraud rates.
-
 Key elements include:
 - Total users
 - Total transactions
