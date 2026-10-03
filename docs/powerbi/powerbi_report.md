@@ -6,6 +6,9 @@ The interactive Power BI report is provided as credit_card_analytics.pbix.
 
 1. User Behavior
 The User Behavior page provides an overview of transaction volume, spending, user-level transaction activity, average transaction amounts, and the distribution of observed user fraud rates.
+
+![User Behavior](./user%20behavior.png)
+
 Key elements include:
 - Total users
 - Total transactions
@@ -18,6 +21,9 @@ The visual analysis is descriptive and does not make causal or predictive claims
 
 2. Card Behavior
 The Card Behavior page compares transaction activity, spending, average transaction amounts, and transaction-weighted fraud rates across card types.
+
+![Card Behavior](./card%20behavior.png)
+
 Key elements include:
 - Total cards
 - Total transactions
@@ -29,6 +35,9 @@ The card analysis uses the project's established aggregation logic. card_id is n
 
 3. Merchant Behavior
 The Merchant Behavior page examines transaction and spending concentration at the merchant level together with online merchant activity.
+
+![Merchant Behavior](./merchant%20behavior.png)
+
 Key elements include:
 - Total merchants
 - Total transactions
@@ -40,6 +49,9 @@ The merchant analysis does not interpret merchant_id as a physical geographic lo
 
 4. Key Findings
 The Key Findings page consolidates the strongest descriptive findings from the analytical workflow.
+
+![Key Findings](./key%20findings.png)
+
 The findings include:
 - Concentration of transaction activity and spending across users and merchants
 - Differences in transaction-weighted fraud rates across card types
